@@ -1,0 +1,5 @@
+El usuario ingresó a la ruta: /
+<% if (sesion) { %>
+	 <h3>Hola <%= usuario.name %>, elegiste el color: <%= usuario.color %>, tu email es: <%= usuario.email %> y tu edad es <%= usuario.edad %></h3>
+	<% } else {%>
+	<% } %> 
